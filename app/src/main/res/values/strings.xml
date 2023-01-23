@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ComposePaging</string>
+    <string name="error_state_message">Unknown error</string>
+    <string name="retry_button">Retry</string>
+    <string name="home_title">Characters</string>
+    <string name="swipe_to_delete">Swipe to delete</string>
+    <string name="favorite_status">Change favorite status</string>
+</resources>

@@ -1,0 +1,82 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
+    id 'com.google.dagger.hilt.android'
+    id 'dagger.hilt.android.plugin'
+}
+
+android {
+    namespace 'com.yusufarisoy.composepaging'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.yusufarisoy.composepaging"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.3.2'
+        kotlinCompilerVersion '1.7.20'
+    }
+}
+
+dependencies {
+
+    implementation project(':composepaging')
+
+    implementation Libs.coreKtx
+    implementation Libs.appCompat
+    //Compose
+    implementation Libs.composeUi
+    implementation Libs.composeCompiler
+    implementation Libs.composeMaterial
+    implementation Libs.composeTooling
+    implementation Libs.activityCompose
+    implementation Libs.hiltNavigationCompose
+    //Retrofit and Gson
+    implementation Libs.retrofit
+    implementation Libs.retrofitConverter
+    implementation Libs.gson
+    //Lifecycle
+    implementation Libs.lifecycleFragment
+    implementation Libs.lifecycleCommon
+    implementation Libs.lifecycleViewModel
+    implementation Libs.lifecycleRunTime
+    //Coroutines
+    implementation Libs.coroutinesCore
+    implementation Libs.coroutinesAndroid
+    //Dagger Hilt
+    kapt Libs.hiltCompiler
+    implementation Libs.hiltAndroid
+    //Coil
+    implementation Libs.coilCompose
+    //Test
+    testImplementation Libs.testJunit
+    androidTestImplementation Libs.testExtJunit
+    androidTestImplementation Libs.espressoCore
+    androidTestImplementation Libs.composeUiTest
+    debugImplementation Libs.composeUiTooling
+}
