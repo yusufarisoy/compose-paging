@@ -50,7 +50,7 @@ android {
 
 dependencies {
 
-    implementation project(':composepaging')
+    implementation 'com.github.yusufarisoy:compose-paging:1.0.0'
 
     implementation Libs.coreKtx
     implementation Libs.appCompat
