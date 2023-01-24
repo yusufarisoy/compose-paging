@@ -9,7 +9,10 @@ class ComposePagerWithQuery<in Input : Params, Value : Any>(
     private val pagingSource: ComposePagingSourceWithQuery<Input, Value>
 ) : BasePager<Value>() {
 
-    suspend fun loadFirstPage(params: Input) {
+    suspend fun searchPage(params: Input) {
+        setState {
+            LoadState.Loading
+        }
         loadPage(params)
     }
 
@@ -42,6 +45,6 @@ class ComposePagerWithQuery<in Input : Params, Value : Any>(
         setState {
             LoadState.Initial
         }
-        loadFirstPage(params)
+        searchPage(params)
     }
 }

@@ -5,4 +5,8 @@
     <string name="home_title">Characters</string>
     <string name="swipe_to_delete">Swipe to delete</string>
     <string name="favorite_status">Change favorite status</string>
+    <string name="search_button">Search</string>
+    <string name="search_title">%1d characters found</string>
+    <string name="search_field_placeholder">Search your favorite characters</string>
+    <string name="search_placeholder">Search your favorite Rick and Morty characters</string>
 </resources>

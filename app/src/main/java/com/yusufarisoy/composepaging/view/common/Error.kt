@@ -14,7 +14,12 @@ import androidx.compose.ui.res.stringResource
 import com.yusufarisoy.composepaging.R
 
 @Composable
-fun Error(message: String, modifier: Modifier = Modifier, retry: () -> Unit) {
+fun Error(
+    message: String,
+    modifier: Modifier = Modifier,
+    showRetryButton: Boolean = false,
+    retry: () -> Unit = {}
+) {
     Column(
         modifier = modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
@@ -25,8 +30,11 @@ fun Error(message: String, modifier: Modifier = Modifier, retry: () -> Unit) {
             contentDescription = stringResource(R.string.error_state_message)
         )
         Text(text = message)
-        Button(onClick =  retry) {
-            Text(text = stringResource(R.string.retry_button))
+
+        if (showRetryButton) {
+            Button(onClick =  retry) {
+                Text(text = stringResource(R.string.retry_button))
+            }
         }
     }
 }

@@ -15,5 +15,5 @@ sealed class HomeState : ViewState {
 
 sealed class HomeEvent : ViewEvent {
 
-    object GoBack : HomeEvent()
+    object OpenSearch : HomeEvent()
 }

@@ -99,6 +99,10 @@ class HomeViewModel @Inject constructor(
         }
     }
 
+    fun onSearchClicked() {
+        pushEvent(HomeEvent.OpenSearch)
+    }
+
     override fun onError(throwable: Throwable) {
         super.onError(throwable)
         setState {
