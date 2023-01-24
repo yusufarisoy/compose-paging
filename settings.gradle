@@ -12,6 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "ComposePaging"
+rootProject.name = "ComposePagingApp"
 include ':app'
 include ':composepaging'

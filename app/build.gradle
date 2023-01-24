@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace 'com.yusufarisoy.composepaging'
+    namespace 'com.yusufarisoy.composepagingapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.yusufarisoy.composepaging"
+        applicationId 'com.yusufarisoy.composepagingapp'
         minSdk 21
         targetSdk 33
         versionCode 1

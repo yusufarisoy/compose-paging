@@ -1,4 +1,4 @@
-package com.yusufarisoy.composepaging
+package com.yusufarisoy.composepagingapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

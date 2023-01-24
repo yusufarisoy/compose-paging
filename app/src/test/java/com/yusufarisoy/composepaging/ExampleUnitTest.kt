@@ -1,4 +1,4 @@
-package com.yusufarisoy.composepaging
+package com.yusufarisoy.composepagingapp
 
 import org.junit.Test
 
