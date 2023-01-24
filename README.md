@@ -60,3 +60,18 @@ private val pager: ComposePager<UiModel> = ComposePager(
     initialPage = 1
 )
 ```
+
+## Setup
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+```
+dependencies {
+        implementation 'com.github.yusufarisoy:compose-paging:1.0.0'
+}
+```
