@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+  ~ Created by Yusuf Arisoy on Jan 23, 2023
+  ~ Copyright (C) 2023 Yusuf Arisoy. All rights reserved.
+  ~ Last modified 1/8/24, 12:05 PM
+  -->
 
-</manifest>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"/>

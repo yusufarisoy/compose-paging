@@ -1,4 +1,10 @@
-package com.yusufarisoy.composepagingapp
+/*
+ * Created by Yusuf Arisoy on Jan 23, 2023
+ * Copyright (C) 2023 Yusuf Arisoy. All rights reserved.
+ * Last modified 1/8/24, 12:05 PM
+ */
+
+package com.yusufarisoy.composepaging
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,3 +1,9 @@
+/*
+ * Created by Yusuf Arisoy on Jan 23, 2023
+ * Copyright (C) 2023 Yusuf Arisoy. All rights reserved.
+ * Last modified 1/8/24, 12:09 PM
+ */
+
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
@@ -64,7 +70,7 @@ afterEvaluate {
 
                 groupId = 'com.github.composepaging'
                 artifactId = 'compose-paging'
-                version = '1.0.0'
+                version = '1.0.1'
             }
         }
     }

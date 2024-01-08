@@ -1,1 +1,1 @@
-/Users/yusuf.arisoy/AndroidStudioProjects/ComposePaging/buildSrc/build/classes/kotlin/main/Libs.class:/Users/yusuf.arisoy/AndroidStudioProjects/ComposePaging/buildSrc/build/classes/kotlin/main/Versions.class
+/Users/yusufarisoy/AndroidStudioProjects/compose-paging/buildSrc/build/classes/kotlin/main/Libs.class:/Users/yusufarisoy/AndroidStudioProjects/compose-paging/buildSrc/build/classes/kotlin/main/Versions.class
